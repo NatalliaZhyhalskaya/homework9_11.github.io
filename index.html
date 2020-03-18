@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотосессия в Турции</title>
+    <link href = "fonts/Gilroy/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <link href = "fonts/PlayfairDisplay/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <link href = "fonts/ProximaNova-Bold/style.css" rel = "stylesheet" type = "text/css" />
+    <script src="https://kit.fontawesome.com/676220f3e9.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalise.css">
+
+    <script src="highslide/highslide.js" type="text/javascript"></script>
+    <link href="highslide/highslide.css" rel="stylesheet" property="stylesheet" />
+    <script type="text/javascript">
+    hs.graphicsDir = 'highslide/graphics/';
+    hs.wrapperClassName = 'your-own-style';
+    </script>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header_bg">
+        <div class="navigation">
+            <div class="navigation_bg">
+            </div>
+            <div class="navigation_box_wraper">
+                <ul class="hamburger_box">
+                    <li class="menu_link_hamburger">
+                         <div class="navigation_link hamburger_picture_closed" onclick="down_hamburger()">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </li>
+                    <li class="menu_link_hamburger"><a class="menu_link_indeed" href="#prices_way">Цены и услуги</a></li>
+                    <li class="menu_link_hamburger"><a class="menu_link_indeed" href="#contacts_way">Контакты</a></li>
+                    <li class="menu_link_hamburger"><a class="menu_link_indeed" href="#review_way">Отзывы</a></li>
+                    <li class="menu_link_hamburger"><a class="menu_link_indeed" href="#galereya_way">Галерея</a></li>
+                </ul>
+                <div class="navigation_box">
+                    <div class="logo_box">
+                        <div class="logo">
+                            <img src="img/logo.svg" title="Logo">
+                            <h2 class="logo_title">PhotoGuide</h2>
+                        </div>
+                        <div class="logo_text">
+                            <h2 class="logo_subtytle">Stop the time - leave the memories</h2>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_link"><a class="menu_link_indeed" href="#prices_way">Цены и услуги</a></li>
+                            <li class="menu_link"><a class="menu_link_indeed" href="#contacts_way">Контакты</a></li>
+                            <li class="menu_link"><a class="menu_link_indeed" href="#review_way">Отзывы</a></li>
+                            <li class="menu_link"><a class="menu_link_indeed" href="#galereya_way">Галерея</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation_hamburger">
+                        <div class="hamburger_picture" onclick="down_menu()">
+                            <div class="hamburger_picture_wraper">
+                                <div class="hamburger_picture_box">
+                                    <div class="hamburger_line"></div>
+                                    <div class="hamburger_line"></div>
+                                    <div class="hamburger_line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <h1 class="title_text">Фотосессия в Турции</h1>
+            <h2 class="subtitle_text">по цене 7000 рублей за 100 фотографий   и 10 одноминутных видео для <span class="subtitle_text_italic">Instagram</span><img src="img/insta.png" title="instagram_logo"></h2>
+        </div>
+        <button class="btn"><a href="#contacts_way">Связаться с фотографом</a></button>
+        <div class="suggestion_wraper">
+            <div class="suggestion">
+                <div class="suggestion_text">
+                    <h4 class="suggestion_title">Вы получаете</h4>
+                    <h4 class="suggestion_subtitle">*Турция</h4>
+                </div>
+                <div class="suggestion_case">
+                    <div class="suggestion_bg"></div>
+                    <div class="suggestion_boxes">
+                        <div class="suggestion_box">
+                            <img class="suggestion_img" src="img/header_1.png" title="suggestion">
+                            <h5 class="suggestion_box_text">100 обработанных фото и оригиналы</h5>
+                        </div>
+                        <div class="suggestion_box border_left">
+                            <img class="suggestion_img" src="img/header_2.png" title="suggestion">
+                            <h5 class="suggestion_box_text">Первые 10 фото и 1 видео в течение 24 часов</h5>
+                        </div>
+                        <div class="suggestion_box border_left">
+                            <img class="suggestion_img" src="img/header_3.png" title="suggestion">
+                            <h5 class="suggestion_box_text">Все фотографии через 15 дней</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="works" id="galereya_way">
+        <div class="works_title">
+            <h4 class="works_subtitle_text">галарея</h4>
+            <h3 class="works_title_text">Мы работаем во всех стилях</h3>
+        </div>
+      
+        <nav id="navbar-example2" class="navbar navbar-light">
+            <div class="works_list">
+        
+            <ul class="nav nav-pills works_links">
+              <li class="nav-item works_link">
+                <a class="nav-link works_link_indeed" href="#family">Семейная сьемка</a>
+              </li>
+              <li class="nav-item works_link">
+                <a class="nav-link works_link_indeed" href="#love">love story</a>
+              </li>
+              <li class="nav-item works_link">
+                <a class="nav-link works_link_indeed" href="#lifestyle">Lifestyle</a>
+              </li>
+              <li class="nav-item works_link">
+                <a class="nav-link works_link_indeed" href="#fashion">Fashion</a>
+              </li>
+              <li class="nav-item works_link">
+                <a class="nav-link works_link_indeed" href="#glamour">Glamour</a>
+              </li>
+              
+            </ul>
+        </div>
+          </nav>
+          <div class="scroll_galerea" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <div class="family_box" id="family">
+                <a href="img/family/big/1_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                    <img src="img/family/1.jpg" alt="family_img_1" title="Семейная сьемка"/>
+                    </a>
+                    <a href="img/family/big/2_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/family/2.jpg" alt="family_img_2" title="Семейная сьемка"/>
+                        </a>
+                    <a href="img/family/big/3_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/family/3.jpg" alt="family_img_3" title="Семейная сьемка"/>
+                        </a>
+                    <a href="img/family/big/4_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/family/4.jpg" alt="family_img_4" title="Семейная сьемка">
+                         </a>
+                    <a href="img/family/big/5_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/family/5.jpg" alt="family_img_5" title="Семейная сьемка"/>
+                        </a>
+                    <a href="img/family/big/6_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/family/6.jpg" alt="family_img_6" title="Семейная сьемка"/>
+                        </a>
+            </div>
+            <div class="love_box" id="love">
+                <a href="img/love/big/1_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                    <img src="img/love/1.jpg" alt="love_img_1" title="Love story"/>
+                    </a>
+                    <a href="img/love/big/2_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/love/2.jpg" alt="love_img_2" title="Love story"/>
+                        </a>
+                    <a href="img/love/big/3_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/love/3.jpg" alt="love_img_3" title="Love story"/>
+                        </a>
+                    <a href="img/love/big/4_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/love/4.jpg" alt="love_img_4" title="Love story"/>
+                         </a>
+                    <a href="img/love/big/5_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/love/5.jpg" alt="love_img_5" title="Love story"/>
+                        </a>
+                    <a href="img/love/big/6_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/love/6.jpg" alt="love_img_6" title="Love story"/>
+                        </a>
+                        <a href="img/love/big/7_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                            <img src="img/love/7.jpg" alt="love_img_7" title="Love story"/>
+                           </a>
+            </div>
+            <div class="lifestyle_box" id="lifestyle">
+                <a href="img/lifestyle/big/1_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                    <img src="img/lifestyle/1.jpg" alt="lifestyle_img_1" title="Lifestyle"/>
+                    </a>
+                    <a href="img/lifestyle/big/2_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/lifestyle/2.jpg" alt="lifestyle_img_2" title="Lifestyle"/>
+                        </a>
+                    <a href="img/lifestyle/big/3_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/lifestyle/3.jpg" alt="lifestyle_img_3" title="Lifestyle"/>
+                        </a>
+                    <a href="img/lifestyle/big/4_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/lifestyle/4.jpg" alt="lifestyle_img_4" title="Lifestyle"/>
+                         </a>
+                    <a href="img/lifestyle/big/5_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/lifestyle/5.jpg" alt="lifestyle_img_5" title="Lifestyle"/>
+                        </a>
+                    <a href="img/lifestyle/big/6_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/lifestyle/6.jpg" alt="lifestyle_img_6" title="Lifestyle"/>
+                        </a>
+            </div>
+            <div class="fashion_box" id="fashion">
+                <a href="img/fashion/big/1_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                    <img src="img/fashion/1.jpg" alt="fashion_img_1" title="Fashion"/>
+                    </a>
+                    <a href="img/fashion/big/2_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/fashion/2.jpg" alt="fashion_img_2" title="Fashion"/>
+                        </a>
+                    <a href="img/fashion/big/3_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/fashion/3.jpg" alt="fashion_img_3" title="fashion"/>
+                        </a>
+                    <a href="img/fashion/big/4_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/fashion/4.jpg" alt="fashion_img_4" title="Fashion"/>
+                         </a>
+                    <a href="img/fashion/big/5_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/fashion/5.jpg" alt="fashion_img_5" title="Fashion"/>
+                        </a>
+                    <a href="img/fashion/big/6_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/fashion/6.jpg" alt="fashion_img_6" title="Fashion"/>
+                        </a>
+            </div>
+            <div class="glamour_box" id="glamour">
+                <a href="img/glamour/big/1_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                    <img src="img/glamour/1.jpg" alt="glamour_img_1" title="Glamour"/>
+                    </a>
+                    <a href="img/glamour/big/2_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/glamour/2.jpg" alt="glamour_img_2" title="Glamour" />
+                        </a>
+                    <a href="img/glamour/big/3_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/glamour/3.jpg" alt="glamour_img_3" title="Glamour"/>
+                        </a>
+                    <a href="img/glamour/big/4_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/glamour/4.jpg" alt="glamour_img_4" title="Glamour"/>
+                         </a>
+                    <a href="img/glamour/big/5_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/glamour/5.jpg" alt="glamour_img_5" title="Glamour"/>
+                        </a>
+                    <a href="img/glamour/big/6_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                         <img src="img/glamour/6.jpg" alt="glamour_img_6" title="Glamour"/>
+                        </a>
+                        <a href="img/glamour/big/7_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                            <img src="img/glamour/7.jpg" alt="glamour_img_7" title="Glamour"/>
+                           </a>
+                           <a href="img/glamour/big/8_big.jpg" class="highslide" onclick="return hs.expand(this)">
+                            <img src="img/glamour/8.jpg" alt="glamour_img_8" title="Glamour"/>
+                           </a>
+            </div>
+                </div>
+    </section>
+    <section class="prices" id="prices_way">
+        <div class="works_title">
+            <h4 class="works_subtitle_text prices_subtitle">услуги и цены</h4>
+            <h3 class="works_title_text prices_title">Сколько стоят наши услуги</h3>
+        </div>
+        <div class="prices_wraper">
+
+            <div class="prices_box">
+                <h4 class="prices_box_titile col_grey">Пакет</h4>
+                <h5 class="prices_box_subtitile">Легкий</h5>
+                <div class="prices_box_wraper">
+                    <div class="prices_box_details">
+                        <ul class="prices_box_list">
+                            <li class="prices_box_text">Сьемка и обработка 60 фотографий</li>
+                            <li class="prices_box_text">USB-флешка с фото</li>
+                            <li class="prices_box_text">10 одноминутных видео для Instagram</li>
+                        </ul>
+                        <ul class="prices_box_list_grey">
+                            <li class="prices_box_text_grey">Аренда платья на фотосессию</li>
+                            <li class="prices_box_text_grey">Аренда квадрокоптера</li>
+                            <li class="prices_box_text_grey">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <h5 class="prices_box_price">7 000 &#8381;</h5>
+                    <btn class="btn prices_box_btn"><p class="prices_box_btn_text">заказать</p></btn>
+                </div>
+            </div>
+    
+                <div class="prices_box">
+                    <h4 class="prices_box_titile col_grey">Пакет</h4>
+                    <h5 class="prices_box_subtitile">Премиум</h5>
+                    <div class="prices_box_details">
+                        <ul class="prices_box_list">
+                            <li class="prices_box_text">Сьемка и обработка 60 фотографий</li>
+                            <li class="prices_box_text">USB-флешка с фото</li>
+                            <li class="prices_box_text">20 одноминутных видео для Instagram</li>
+                            <li class="prices_box_text">Аренда платья на фотосессию</li>
+                            <li class="prices_box_text">Аренда квадрокоптера</li>
+                            <li class="prices_box_text">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <h5 class="prices_box_price">12 000 &#8381;</h5>
+                    <btn class="btn prices_box_btn"><p class="prices_box_btn_text">заказать</p></btn>
+                </div>
+    
+                <div class="prices_box">
+                    <h4 class="prices_box_titile col_grey">Пакет</h4>
+                    <h5 class="prices_box_subtitile">Стандарт</h5>
+                    <div class="prices_box_details">
+                        <ul class="prices_box_list">
+                            <li class="prices_box_text">Сьемка и обработка 80 фотографий</li>
+                            <li class="prices_box_text">USB-флешка с фото</li>
+                            <li class="prices_box_text">15 одноминутных видео для Instagram</li>
+                            <li class="prices_box_text">Аренда платья на фотосессию</li>
+                        </ul>
+                        <ul class="prices_box_list_grey">
+                            <li class="prices_box_text_grey">Аренда квадрокоптера</li>
+                            <li class="prices_box_text_grey">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <h5 class="prices_box_price">9 000 &#8381;</h5>
+                    <btn class="btn prices_box_btn"><p class="prices_box_btn_text">заказать</p></btn>
+                </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="movie">
+            <div class="movie_wraper">
+                <iframe id="video"  class="movie_indeed" width="560" height="315" src="https://www.youtube.com/embed/C8VGLrsCWcA?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="movie_btn">
+                    <img class="movie_btn_play" src="img/play.png">
+                    <img class="movie_btn_text" src="img/text.png">
+                </div>
+            </div>
+        </div>
+        <div class="vidoe_information">
+            <div class="vidoe_information_text">
+                <h5 class="vidoe_subtitle works_subtitle_text">наша команда</h5>
+            <h6 class="vidoe_title">Посмотрите 2-минутное видео о нас, чтобы лучше понять, как проходят наши фотосессии</h6>
+            <p class="vidoe_text">Делаем так, чтобы воспоминания об отдыхе остались у вас на всю жизнь. Для этого заранее продумываем сюжет и подбираем интересные геолокации. <span class="orange">Наша цель </span> - создавать атмосферные фотографии, которые передают сюжет и рассказывают историю.</p>
+            <p class="vidoe_text">Ладим с детьми, знаем уникальные места вблизи Анталии, помогаем позировать, умеем смешить и ловить мгновения. На наших фотографиях вы будете выглядеть естественно красиво, даже если это ваша первая съемка. А чтобы убедиться, что вам с нами будет комфортно, <span class="bold">посмотрите 2-минутное видео</span></p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="review" id="review_way">
+        <div class="works_title review_titles">
+                <h4 class="works_subtitle_text">отзывы</h4>
+                <h3 class="review_title_text">Узнайте, что пишут о нас наши клиенты в своих <span class="subtitle_text_italic text_dark">Instagram</span><img src="img/insta.png" title="instagram_logo">  аккаунтах</h3>
+        </div>
+
+
+
+
+        <div class="slider">
+            <input class="slider__nav" type="radio" name="slider" title="slide1" checked="checked"/>
+            <input class="slider__nav" type="radio" name="slider" title="slide2"/>
+            <input class="slider__nav" type="radio" name="slider" title="slide3"/>
+            <input class="slider__nav" type="radio" name="slider" title="slide4"/>
+      
+            <div class="slider__inner">
+      
+              <div class="slider__contents">
+                <div class="slider__contents_wraper">
+                  <div class="slider__contents_border"></div>
+                  <div class="slider__contents_box">
+                    <img class="autor_photo" src="img/cats/1.jpg" alt="cat">
+                    <div class="slider__contents_box_text">
+                      <h2 class="slider__caption">Просто восторг!</h2>
+                      <p class="slider__txt">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </p>
+                      <div class="autor">
+                        <img class="autor_picture" src="img/instagram_2.png" alt="instagram">
+                        <h3 class="autor_text">@Masha_Sharapova </h3> 
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+                
+              </div>
+      
+              <div class="slider__contents">
+                <div class="slider__contents_wraper">
+                  <div class="slider__contents_border"></div>
+                  <div class="slider__contents_box">
+                    <img class="autor_photo" src="img/cats/2.jpg" alt="cat">
+                    <div class="slider__contents_box_text">
+                      <h2 class="slider__caption">Замечательные фотографии</h2>
+                      <p class="slider__txt">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </p>
+                      <div class="autor">
+                        <img class="autor_picture" src="img/instagram_2.png" alt="instagram">
+                        <h3 class="autor_text">@Victoria_Komorovskaya </h3> 
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+                
+              </div>
+              <div class="slider__contents">
+                <div class="slider__contents_wraper">
+                  <div class="slider__contents_border"></div>
+                  <div class="slider__contents_box">
+                    <img class="autor_photo" src="img/cats/3.jpg" alt="cat">
+                    <div class="slider__contents_box_text">
+                      <h2 class="slider__caption">Хорошая работа!</h2>
+                      <p class="slider__txt">Анталия - одно из красивейших мест на земле! У меня остались самые прекрасные выспоминая об отдыхе, благодаря вашим фотографиям.</p>
+                      <div class="autor">
+                        <img class="autor_picture" src="img/instagram_2.png" alt="instagram">
+                        <h3 class="autor_text">@Pasha_Popochkin </h3> 
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+                
+              </div>
+              <div class="slider__contents">
+                <div class="slider__contents_wraper">
+                  <div class="slider__contents_border"></div>
+                  <div class="slider__contents_box">
+                    <img class="autor_photo" src="img/cats/4.jpg" alt="cat">
+                    <div class="slider__contents_box_text">
+                      <h2 class="slider__caption">Супер!</h2>
+                      <p class="slider__txt">Мне очень понравилось, теперь буду обращаться исключительно к вам! </p>
+                      <div class="autor">
+                        <img class="autor_picture" src="img/instagram_2.png" alt="instagram">
+                        <h3 class="autor_text">@Nina_Goga </h3> 
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <section class="contacts prices" id="contacts_way">
+        <div class="works_title">
+            <h4 class="works_subtitle_text">контакты</h4>
+            <h3 class="contacts_title">Свяжитесь с нами удобным вам способом, чтобы договориться о встрече-знакомстве и обсудить детали</h3>
+        </div>
+            <div class="contacts_links">
+                <ul class="contacts_links_list">
+                    <li class="contacts_link">
+                        <div class="img_bg1" >
+                            <img src="img/contacts_1.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">Telegram</p></a>
+                    </li>
+                    <li class="contacts_link">
+                        <div class="img_bg2">
+                            <img  src="img/contacts_2.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">Viber</p></a>
+                    </li>
+                    <li class="contacts_link">
+                        <div class="img_bg3">
+                            <img  src="img/contacts_3.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">Facebook</p></a>
+                    </li>
+                    <li class="contacts_link">
+                        <div class="img_bg4">
+                            <img src="img/contacts_4.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">Instagram</p></a>
+                        
+                    </li>
+                    <li class="contacts_link">
+                        <div class="img_bg5" >
+                            <img src="img/contacts_5.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">whatsapp</p></a>
+                        
+                    </li>
+                    <li class="contacts_link">
+                        <div class="img_bg6">
+                            <img  src="img/contacts_6.png">
+                        </div>
+                        <a href="#"><p class="contacts_links_tytle">VKOntakte</p></a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts_form_wraper">
+                <h5 class="form_tytle">Или оставьте данные и мы вам перезвоним</h5>
+                <form class="form">
+                    <div class="label_wraper">
+                      <label class="label"> 
+                        <input class="form_name_text" required type="text" />
+                        <div class="label-text">Введите имя</div>
+                      </label>
+                    </div>
+                    <div class="label_wraper">
+                      <label class="label">
+                        <input class="form_phone_text" required type="text" />
+                        <div class="label-text">Введите Телефон</div>
+                      </label>
+                    </div>
+                    <div class="label_wraper">
+                      <label class="label">
+                        <input class="form_text_text" required type="text" />
+                        <div class="label-text">Оставьте Комментарий</div>
+                      </label>
+                    </div>
+                      <button class="btn prices_box_btn form_btn"><p class="form_btn_text">отправить заявку</p></button>
+                  </form> 
+            </div>
+            <div class="contacts_text_box">
+                <h3 class="contacts_text">Пользуясь сайтом photoguide.biz и оставляя заявку Вы соглашаетесь с <span class="contacts_text_bold">Политикой конфиденциальности</span>  нашей компании. Мы гарантируем, что Ваши данные будут использоваться только для связи с Вами и не будут переданы третьим лицам.</h3>
+            </div>
+    </section>
+    <footer class="footer">
+        <h3 class="footer_text">2019 © Photoguide.biz. All rights reserved. Бренд упакован <span class="footer_text_bold">Digital Butlers.</span></h3>
+        
+
+    </footer>
+
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
